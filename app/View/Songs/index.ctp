@@ -29,5 +29,7 @@
         </table>
     </div>
     <?php echo $this->element('add_to_playlist'); ?>
+    <center>
     <?php echo $this->element('pagination'); ?>
+    </center>
 <?php endif; ?>

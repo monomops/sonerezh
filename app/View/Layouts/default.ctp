@@ -60,7 +60,7 @@
 <div class="navbar navbar-default navbar-fixed-top navbar-player">
     <div class="container">
         <!-- Play/Pause buttons -->
-        <div class="col-md-2 col-xs-3">
+        <div class="col-md-2 col-xs-12">
             <ul class="player-controls">
                 <li><span class="glyphicon glyphicon-backward" id="backward"></span></li>
                 <li class="play"><span class="glyphicon glyphicon-play" id="play"></span></li>
@@ -68,14 +68,14 @@
             </ul>
         </div>
         <!-- Volume control -->
-        <div class="col-md-2 hidden-xs hidden-sm">
+        <div class="col-md-2  hidden-xs hidden-sm">
             <ul class="player-controls volume">
                 <li class="volumeicon"><span class="glyphicon glyphicon-volume-up" id="mute"></span></li>
                 <li class="volumebar"><div id="volume"></div></li>
             </ul>
         </div>
         <!-- Current playing -->
-        <div class="col-md-6 col-xs-6">
+        <div class="col-md-6 col-xs-12">
             <?php echo $this->Html->image("no-cover.png", array('class' => "song-cover hidden-xs")); ?>
             <div class="song-infos truncated-name">
                 <span class="song-name"></span>
@@ -89,7 +89,7 @@
             </ul>
         </div>
         <!-- Playlist management -->
-        <div class="col-md-2 col-xs-2">
+        <div class="col-md-2 col-xs-12">
             <ul class="player-controls">
                 <li><span class="glyphicon glyphicon-th-list" id="queue-button"></span></li>
                 <li><span class="glyphicon glyphicon-repeat" id="queue-repeat"></span></li>
